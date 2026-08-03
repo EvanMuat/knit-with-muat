@@ -9,6 +9,10 @@
     <meta name="keywords" content="knitting, learn, pattern, stitch, yarn, knit">
     <title>Knit With Muat</title>
     <script src="https://kit.fontawesome.com/8e98b6be0c.js" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+    </style>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
@@ -21,7 +25,7 @@
         <label for="nav-toggle" id="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
         <nav>
             <ul id="menu">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="patterns.html">Patterns</a></li>
                 <li><a href="stitches.html">Stitches</a></li>
             </ul>
@@ -35,42 +39,46 @@
                 <p>Learn how to knit with our step-by-step guides and patterns. Whether you're a beginner or an
                     experienced knitter, we have something for everyone.</p>
             </div>
-            <button onclick="window.location.href='stitches.html'" id="stitches">I'm a Beginner</button>
-            <button onclick="window.location.href='patterns.html'" id="patterns">I'm a Knitter</button>
-        </section>
+            </section>
+        
         <!-- reasons section -->
-         <section id="reasons">
-            <h2>Why Learn to Knit?</h2>
-            <p>Knitting is a rewarding hobby that offers numerous benefits for both physical and mental well-being.</p>
+
+         
+        <h2 id="why">Why Learn to Knit?</h2>
+           <section id="reasons"> 
             <div id="positive-benefits">
                 <div>
-                    <h3>Provides a creative outlet<i class="fa-solid fa-paintbrush"></i></h3>
-                    <p>Knitting allows you to express your creativity through colors, patterns, and textures. You can create unique pieces that reflect your personal style.</p>
+                    <h3><i class="fa-solid fa-paintbrush"></i>Provides a creative outlet</h3>
+                    <p>Knitting allows you to express your creativity through colors, textures, and patterns.</p>
                 </div>
                 <div>
-                    <h3>Helps with memory retention<i class="fa-solid fa-brain"></i></h3>
-                    <p>learning patterns keeps the brain active and could help lower the risk of cognitive decline as you age.</p>
+                    <h3><i class="fa-solid fa-brain"></i>Helps with memory retention</h3>
+                    <p>learning patterns keeps the brain active and can lower the risk of cognitive decline.</p>
                 </div>
                 <div>
-                    <h3>Improves fine motor skills<i class="fa-solid fa-hand"></i></h3>
-                    <p>working with knitting needles and yarn can help improve hand-eye coordination and finger flexibility</p>
+                    <h3><i class="fa-solid fa-hand"></i>Improves fine motor skills</h3>
+                    <p>Working with knitting needles and yarn can help improve hand-eye coordination </p>
                 </div>
                 <div>
-                    <h3>Great for stress relief<i class="fa-solid fa-spa"></i></h3>
+                    <h3><i class="fa-solid fa-spa"></i>Great for stress relief</h3>
                     <p>The rhythmic nature of knitting can be calming and help reduce stress and anxiety.</p>
                 </div>
                 <div>
-                    <h3>Social activity<i class="fa-solid fa-user-group"></i></h3>
-                    <p>Knitting is the perfect social activity, there are lots of knitting groups where you can meet new people </p>
+                    <h3><i class="fa-solid fa-user-group"></i>Social activity</h3>
+                    <p>There are lots of knitting groups where you can meet new people </p>
                 </div>
                 <div>
-                    <h3>Improves problem solving skills<i class="fa-solid fa-lightbulb"></i></h3>
-                    <p>Navigating complex patterns and troubleshooting issues can enhance critical thinking and problem-solving abilities.</p>
+                    <h3><i class="fa-solid fa-lightbulb"></i>Improves problem solving skills</h3>
+                    <p>Navigating complex patterns can enhance critical thinking and problem-solving abilities.</p>
                 </div>
             </div>
         </section>
         <!-- call to action -->
-        <p>So why not start your knitting journey today?</p>
+        <h2 id="call">So why not start your knitting journey today?</h2>
+        <div id="click">
+        <button onclick="window.location.href='stitches.html'" id="stitches">I'm a Beginner</button>
+        <button onclick="window.location.href='patterns.html'" id="patterns">I'm a Knitter</button>
+        </div>
     </main>
     <!-- footer -->
     <footer>
