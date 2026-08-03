@@ -1,5 +1,5 @@
 *{margin:0; padding:0; box-sizing:border-box; }
-body{min-height:100vh; display:flex; flex-direction:column; color:#3a3a3a; background-color:#d7db95;  }
+body{min-height:100vh; display:flex; flex-direction:column; color:#3a3a3a; background-color:#fafafa;  }
 h1, h2, h3{text-transform:uppercase; letter-spacing:2px; color:#252525}
 .hidden-heading{display:none}
 header{background-color:#9995db ; padding: 0 1rem; position:fixed; z-index:99 ; width:100%; box-shadow:0 2px 2px #3a3a3a; display:flex; justify-content:space-between; align-items:baseline; }
@@ -18,18 +18,18 @@ nav{position:absolute; background-color: #9995db; width:100%; box-shadow:0 2px 2
 
 main{ flex: 1 0 auto; margin-top: 30px}
 #hero{height:600px; width:100%; background:url('../images/9995db.png') no-repeat center center/cover; position:relative; }
-#cover-text{background-color:#d7db95; font-size:130% ; position:absolute; bottom:30px ; width:80%; min-height:200px; padding-top:40px; padding-left:10px;}
+#cover-text{background-color:#d7db95; font-size:130% ; position:absolute; bottom:30px ; width:80%; min-height:200px; padding-top:40px; padding-left:10px; box-shadow:0 2px 2px #3a3a3a; }
 #cover-text > h2, #cover-text > p{color:#252525 }
 #reasons{ padding:20px 10px; display:flex; flex-wrap:wrap; justify-content:space-around}
 
 #positive-benefits{background:url('../images/9995db.webp') no-repeat center center / cover; display:flex; flex-wrap:wrap;} 
-#positive-benefits div{color:#252525; background-color:#9995db; padding:15px; text-align:center; flex-basis:200px; flex-grow:1; border:2px solid #d7db95 }
+#positive-benefits div{color:#252525; background-color:#9995db; padding:15px; text-align:center; flex-basis:200px; flex-grow:1; border:2px solid #fafafa }
 #positive-benefits h3{color:#252525}
 
 #call{text-align:center; }
 #why{text-align:center; }
-#stitches, #patterns{background-color:#9995db;text-align:center; }
+#stitches, #patterns{background-color:#9995db;text-align:center; color:#252525;}
 
-#click{display:flex; justify-content:center; padding:20px 20px; gap:20px; }
+#click{display:flex; justify-content:center; padding:2em; gap:20px; }
 
 footer{background-color:#d7db95; flex-basis: 0; align-items:center;  }
