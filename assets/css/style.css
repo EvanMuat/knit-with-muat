@@ -17,7 +17,7 @@ nav{position:absolute; background-color: #9995db; width:100%; box-shadow:0 2px 2
 
 
 main{ flex: 1 0 auto; margin-top: 30px}
-#hero{height:600px; width:100%; background:url('../images/9995db.png') no-repeat center center/cover; position:relative; }
+#hero{height:600px; width:100%; background:url('../images/hero.jpg') no-repeat center center/cover; position:relative; }
 #cover-text{background-color:#d7db95; font-size:130% ; position:absolute; bottom:30px ; width:80%; min-height:200px; padding-top:40px; padding-left:10px; box-shadow:0 2px 2px #3a3a3a; }
 #cover-text > h2, #cover-text > p{color:#252525 ; }
 
@@ -44,7 +44,7 @@ footer{background-color:#d7db95; flex-basis: 0; align-items:center;  }
 img{flex-basis:200px; flex-wrap:wrap; }
 /*cable pattern*/
 #basic-cable{
-    background-image: url('../images/ph.png');
+    background-image: url('../images/cable.jpg');
     background-size: cover;
     background-position: center;}
 /*embossed slip stitch pattern*/
@@ -79,6 +79,26 @@ img{flex-basis:200px; flex-wrap:wrap; }
     background-position: center;}
 /*rib pattern*/
 #basic-rib{
-    background-image: url('../images/ph2.jpg');
+    background-image: url('../images/rib.jpg');
     background-size: cover;
     background-position: center;}
+
+
+    .pattern-box h3{background-color:#d7db95}
+
+ /*patterns instruction pages*/
+#pattern-title{padding:20px 10px; text-align:center; background-color:#d7db95; }
+
+#materials{  padding:25px; flex-basis:200px; flex-grow:1;  }
+#materials-list{list-style:none; }
+
+#instructions{ background-color:#9995db; padding:25px; flex-basis:200px; flex-grow:1;  }
+#instructions-list{list-style:none; }
+
+#finished{  padding:25px; flex-basis:200px; flex-grow:1;  }
+#finished p{padding:5px; }
+
+#next-pattern-btn{background-color:#9995db;}
+
+#rib-image{background-image: url('../images/rib.jpg'); background-size: cover; background-position: center; height:400px; width:100%; }
+#cable-image{background-image: url('../images/cable.jpg'); background-size: cover; background-position: center; height:400px; width:100%; }
