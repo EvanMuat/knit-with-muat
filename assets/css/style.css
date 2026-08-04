@@ -40,4 +40,44 @@ footer{background-color:#d7db95; flex-basis: 0; align-items:center;  }
 #pattern-boxes div{color:#252525; background-color:#9995db; padding:15px; text-align:center; flex-basis:200px; flex-grow:1; border:2px solid #fafafa; }
 #pattern-boxes h3{color:#252525}
 
-#basket-stitch{background-image:url('../images/ph,png') no-repeat center center/cover; } 
+img{flex-basis:200px; flex-wrap:wrap; }
+/*cable pattern*/
+#basic-cable{
+    background-image: url('../images/ph.png');
+    background-size: cover;
+    background-position: center;}
+/*embossed slip stitch pattern*/
+#embossed-slip-stitch{
+    background-image: url('../images/ph2.jpg');
+    background-size: cover;
+    background-position: center;}
+/*double moss stitch pattern*/
+#double-moss-stitch{
+    background-image: url('../images/ph3.avif');
+    background-size: cover;
+    background-position: center;}
+/*basket stitch pattern*/
+#basket-stitch{
+    background-image: url('../images/ph4.jpg');
+    background-size: cover;
+    background-position: center;}
+/*cable and rib pattern*/
+#cable-and-rib{
+    background-image: url('../images/ph.png');
+    background-size: cover;
+    background-position: center;}
+/*platted cable stitch pattern*/
+#platted-cable-stitch{
+    background-image: url('../images/ph2.jpg');
+    background-size: cover;
+    background-position: center;}
+/*girls wing pattern*/
+#girls-wing-pattern{
+    background-image: url('../images/ph4.jpg');
+    background-size: cover;
+    background-position: center;}
+/*rib pattern*/
+#basic-rib{
+    background-image: url('../images/ph2.jpg');
+    background-size: cover;
+    background-position: center;}
