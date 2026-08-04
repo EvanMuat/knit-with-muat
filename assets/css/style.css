@@ -35,7 +35,8 @@ main{ flex: 1 0 auto; margin-top: 30px}
 footer{background-color:#d7db95; flex-basis: 0; align-items:center;  }
 
 /*patterns page*/
-#patterns{ padding:20px 10px; display:flex; flex-wrap:wrap; justify-content:space-around}
+#pattern-title{padding:20px 10px; text-align:center; background-color:#d7db95; }
+#patterns{ padding:20px 10px; display:flex; flex-wrap:wrap; justify-content:space-around; height:100vh; }
 #pattern-boxes{ display:flex; flex-wrap:wrap;} 
 #pattern-boxes div{color:#252525; background-color:#9995db; padding:15px; text-align:center; flex-basis:200px; flex-grow:1; border:2px solid #fafafa; }
 #pattern-boxes h3{color:#252525}
