@@ -104,4 +104,15 @@ img{flex-basis:200px; flex-wrap:wrap; }
 #next-pattern-btn{background-color:#9995db;}
 
 #rib-image{background-image: url('../images/rib.jpg'); background-size: cover; background-position: center; height:400px; width:100%; }
-#cable-image{background-image: url('../images/cable.jpg'); background-size:cover; background-position: center; height:400px; width:100%; }
+#cable-image{background-image: url('../images/cable.jpg'); background-size:cover; background-position: center; height: 400px; width:100%; }
+
+#pattern-section{display:flex; flex-direction:column; }
+
+#image-section{order:2;}
+#text-section{order:1; }
+
+@media (min-width: 768px) {
+    #pattern-section{flex-direction:row; }
+     #image-section{flex-grow:2; height:800px; }
+    #pattern-image{ background-size:cover; background-position: center; height:800px; width:100%; }
+}
