@@ -92,7 +92,7 @@ img{flex-basis:200px; flex-wrap:wrap; }
 #materials{  padding:25px; flex-basis:200px; flex-grow:1;  }
 #materials-list{list-style:none; }
 
-#starter-rows{ ; padding:25px; flex-basis:200px; flex-grow:1;  }
+#starter-rows{ padding:25px; flex-basis:200px; flex-grow:1;  }
 #starter-rows-list{list-style:none; }
 
 #instructions{ background-color:#9995db; padding:25px; flex-basis:200px; flex-grow:1;  }
@@ -103,10 +103,5 @@ img{flex-basis:200px; flex-wrap:wrap; }
 
 #next-pattern-btn{background-color:#9995db;}
 
-#rib-image{background-image: url('../images/rib.jpg'); background-size: cover; background-position: center; height:100%; width:100%; }
-#cable-image{background-image: url('../images/cable.jpg'); background-size:contain; background-position: center; height:400px; width:100%; }
-
-@media screen and (min-width: 768px) {
-        .pattern-image{
-        column-count: 3; column-gap: 0;
-    }
+#rib-image{background-image: url('../images/rib.jpg'); background-size: cover; background-position: center; height:400px; width:100%; }
+#cable-image{background-image: url('../images/cable.jpg'); background-size:cover; background-position: center; height:400px; width:100%; }
