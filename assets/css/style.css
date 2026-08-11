@@ -35,50 +35,69 @@ main{ flex: 1 0 auto; margin-top: 30px}
 footer{background-color:#d7db95; flex-basis: 0; align-items:center;  }
 
 /*patterns page*/
-#pattern-title{padding:20px 10px; text-align:center; background-color:#d7db95; }
-#patterns{ padding:20px 10px; display:flex; flex-wrap:wrap; justify-content:space-around; height:100vh; }
-#pattern-boxes{ display:flex; flex-wrap:wrap; } 
-#pattern-boxes div{color:#252525; padding:15px; text-align:center; flex-basis:200px; flex-grow:1; border:2px solid #fafafa; }
-#pattern-boxes h3{color:#252525}
-.pattern-box{ background-repeat:no-repeat; background-size:contain; background-position:center; } 
- 
+/*patterns page*/
+#pattern-title{
+    padding:20px 10px;
+    text-align:center;
+    background-color:#d7db95;
+}
 
-img{flex-basis:200px; flex-wrap:wrap; }
+#patterns{
+    padding:20px 10px;
+}
+
+#pattern-boxes{
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;                 /* space between boxes, both directions */
+    justify-content:center;   /* centers the last row if it's not full */
+}
+
+.pattern-box{
+    color:#252525;
+    text-align:center;
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+    border:2px solid #fafafa;
+
+    width:calc(25% - 20px);   /* 4 per row, minus the gap */
+    box-sizing:border-box;
+    height:200px;              /* gives the background image room to show */
+}
+
+#pattern-boxes h3{
+    color:#252525; margin-bottom:20px
+}
+
+.pattern-box h3{
+    background-color:#d7db95;
+    padding:8px;
+    margin:0;
+}
+
 /*cable pattern*/
-#basic-cable{
-    background-image: url('../images/cable.jpg');
-    }
+#basic-cable{ background-image: url('../images/cable.jpg'); }
 /*embossed slip stitch pattern*/
-#embossed-slip-stitch{
-    background-image: url('../images/embossed-slip-stitch.jpg');
-    }
+#embossed-slip-stitch{ background-image: url('../images/embossed-slip-stitch.jpg'); }
 /*double moss stitch pattern*/
-#double-moss-stitch{
-    background-image: url('../images/ph3.avif');
-    }
+#double-moss-stitch{ background-image: url('../images/ph3.avif'); }
 /*basket stitch pattern*/
-#basket-stitch{
-    background-image: url('../images/ph4.jpg');
-      }
+#basket-stitch{ background-image: url('../images/ph4.jpg'); }
 /*cable and rib pattern*/
-#cable-and-rib{
-    background-image: url('../images/ph.png');
-     }
+#cable-and-rib{ background-image: url('../images/ph.png'); }
 /*platted cable stitch pattern*/
-#platted-cable-stitch{
-    background-image: url('../images/ph2.jpg');
-     } 
+#platted-cable-stitch{ background-image: url('../images/ph2.jpg'); }
 /*girls wing pattern*/
-#girls-wing-pattern{
-    background-image: url('../images/ph4.jpg');
-     }
+#girls-wing-pattern{ background-image: url('../images/ph4.jpg'); }
 /*rib pattern*/
-#basic-rib{
-    background-image: url('../images/rib.jpg');
-     }
+#basic-rib{ background-image: url('../images/rib.jpg'); }
 
-
-    .pattern-box h3{background-color:#d7db95}
+@media (max-width: 700px) {
+    .pattern-box{
+        width: calc(50% - 20px); /* 2 per row on smaller screens */
+    }
+}
 
  /*patterns instruction pages*/
 #pattern-title{padding:20px 10px; text-align:center; background-color:#d7db95; }
