@@ -10,7 +10,7 @@ body {
     flex-direction: column;
     color: #3a3a3a;
     background-color: #fafafa;
-    
+
 }
 
 h1,
@@ -83,19 +83,19 @@ nav {
 
 
 main {
-    
+
     margin-top: 30px
 }
 
 #hero {
     height: 400px;
     width: 100%;
-    background: url('../images/hero.jpg') no-repeat center center/cover;
+    background: url('../images/hero.webp') no-repeat center center/cover;
     position: relative;
 }
 
 #cover-text {
-    background-color: rgba(215,219,149,0.8);
+    background-color: rgba(215, 219, 149, 0.8);
     font-size: 130%;
     position: absolute;
     bottom: 30px;
@@ -141,7 +141,8 @@ main {
     text-align: center;
 }
 
-#why { padding-top: 20px;
+#why {
+    padding-top: 20px;
     text-align: center;
 }
 
@@ -154,8 +155,8 @@ main {
 }
 
 footer {
-    background-color: rgba(215,219,149,0.8);
-    
+    background-color: rgba(215, 219, 149, 0.8);
+
     align-items: center;
     position: fixed bottom;
 }
@@ -169,129 +170,27 @@ footer {
     /* background-color: #d7db95;*/
 }
 
-#patterns {
-    padding: 20px 10px;
-}
 
-
-#pattern-boxes h3 {
-    color: #252525;
-    margin-bottom: 20px
-}
-
-.pattern-box h3 {
-    background-color: rgba(215,219,149,0.8);
-    padding: 8px;
-    margin: 0;
-}
-
-/*cable pattern*/
-#basic-cable {
-    background-image: url('../images/cable.jpg');
-}
-
-/*embossed slip stitch pattern*/
-#embossed-slip-stitch {
-    background-image: url('../images/embossed-slip-stitch.jpg');
-}
-
-/*double moss stitch pattern*/
-#double-moss-stitch {
-    background-image: url('../images/ph3.avif');
-}
-
-/*basket stitch pattern*/
-#basket-stitch {
-    background-image: url('../images/ph4.jpg');
-}
-
-/*cable and rib pattern*/
-#cable-and-rib {
-    background-image: url('../images/ph.png');
-}
-
-/*platted cable stitch pattern*/
-#platted-cable-stitch {
-    background-image: url('../images/ph2.jpg');
-}
-
-/*girls wing pattern*/
-#girls-wing-pattern {
-    background-image: url('../images/ph4.jpg');
-}
-
-/*rib pattern*/
-#basic-rib {
-    background-image: url('../images/rib.jpg');
-}
-
-
-
-/*patterns instruction pages*/
-
-
-#pattern-title {
-    padding: 20px 10px;
-    margin-top: 20px;
-    text-align: center;
-    background-color: rgba(215,219,149,0.8);
-}
-
-#materials {
-    padding: 25px;
-}
-
-#materials-list {
-    list-style: none;
-}
-
-#starter-rows {background-color: rgba(215,219,149,0.4);
-    padding: 25px;
-}
-
-#starter-rows-list {
-    list-style: none;
-}
-
-#instructions {
-    background-color: rgba(153, 149, 219, 0.4);
-    padding: 25px;
-}
-
-#instructions-list {
-    list-style: none;
-}
-
-#finished {
-    padding: 25px;
-
-}
-
-#finished p {
-    padding: 5px;
-}
-
-#back-link {padding:10px}
-
-
+/*pattern box images*/
+/*rib image*/
 #a {
-    background-image: url('../images/rib.jpg');
+    background-image: url('../images/rib.webp');
     background-size: cover;
     background-position: center;
     height: 400px;
     width: 100%;
 }
-
+/*cable image*/
 #b {
-    background-image: url('../images/cable.jpg');
+    background-image: url('../images/cable.webp');
     background-size: cover;
     background-position: center;
     height: 400px;
     width: 100%;
 }
-
+/*embossed slip stitch image*/
 #c {
-    background-image: url('../images/embossed-slip-stitch.jpg');
+    background-image: url('../images/embossed-slip-stitch.webp');
     background-size: cover;
     background-position: center;
     height: 400px;
@@ -320,9 +219,60 @@ Retrieved 2026-08-19, License - CC BY-SA 4.0
     height: 0;
 }
 
+/*patterns instruction pages*/
+
+
+#pattern-title {
+    padding: 20px 10px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgba(215, 219, 149, 0.8);
+}
+
+#materials {
+    padding: 25px;
+}
+
+#materials-list {
+    list-style: none;
+}
+
+#starter-rows {
+    background-color: rgba(215, 219, 149, 0.4);
+    padding: 25px;
+}
+
+#starter-rows-list {
+    list-style: none;
+}
+
+#instructions {
+    background-color: rgba(153, 149, 219, 0.4);
+    padding: 25px;
+}
+
+#instructions-list {
+    list-style: none;
+}
+
+#finished {
+    padding: 25px;
+
+}
+
+#finished p {
+    padding: 5px;
+}
+
+#back-link {
+    padding: 10px
+}
+
+
+
 
 .item h3 {
-    background-color: rgba(215,219,149,0.8);
+    background-color: rgba(215, 219, 149, 0.8);
 }
 
 /*media query for smaller screens*/
@@ -333,7 +283,7 @@ Retrieved 2026-08-19, License - CC BY-SA 4.0
     }
 
     #a {
-        background-image: url('../images/rib.jpg');
+        background-image: url('../images/rib.webp');
         background-size: cover;
         background-position: center;
         height: 200px;
@@ -341,7 +291,7 @@ Retrieved 2026-08-19, License - CC BY-SA 4.0
     }
 
     #b {
-        background-image: url('../images/cable.jpg');
+        background-image: url('../images/cable.webp');
         background-size: cover;
         background-position: center;
         height: 200px;
@@ -349,7 +299,7 @@ Retrieved 2026-08-19, License - CC BY-SA 4.0
     }
 
     #c {
-        background-image: url('../images/embossed-slip-stitch.jpg');
+        background-image: url('../images/embossed-slip-stitch.webp');
         background-size: cover;
         background-position: center;
         height: 200px;
