@@ -1,133 +1,372 @@
-*{margin:0; padding:0; box-sizing:border-box; }
-body{min-height:100vh; display:flex; flex-direction:column; color:#3a3a3a; background-color:#fafafa;  }
-h1, h2, h3{text-transform:uppercase; letter-spacing:2px; color:#252525}
-.hidden-heading{display:none}
-header{background-color:#9995db ; padding: 0 1rem; position:fixed; z-index:99 ; width:100%; box-shadow:0 2px 2px #3a3a3a; display:flex; justify-content:space-between; align-items:baseline; }
-header a{text-decoration:none; color:inherit; }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #3a3a3a;
+    background-color: #fafafa;
+}
+
+h1,
+h2,
+h3 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525
+}
+
+.hidden-heading {
+    display: none
+}
+
+header {
+    background-color: #9995db;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
 
 
 
-#menu{list-style:none; letter-spacing:4px; font-size:110%}
-#menu > li{margin-bottom:1em;}
-.active{border-bottom:1px solid #3a3a3a}
-nav{position:absolute; background-color: #9995db; width:100%; box-shadow:0 2px 2px #3a3a3a ;padding: 0 1rem; left:0 ; display:none; top:100%}
-#nav-toggle:checked~ nav{display:block}
-#nav-toggle{display:none; }
-#nav-toggle-label{font-size:2rem; }
+#menu {
+    list-style: none;
+    letter-spacing: 4px;
+    font-size: 110%
+}
+
+#menu>li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a
+}
+
+nav {
+    position: absolute;
+    background-color: #9995db;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    padding: 0 1rem;
+    left: 0;
+    display: none;
+    top: 100%
+}
+
+#nav-toggle:checked~nav {
+    display: block
+}
+
+#nav-toggle {
+    display: none;
+}
+
+#nav-toggle-label {
+    font-size: 2rem;
+}
 
 
-main{ flex: 1 0 auto; margin-top: 30px}
-#hero{height:400px; width:100%; background:url('../images/hero.jpg') no-repeat center center/cover; position:relative; }
-#cover-text{background-color:#d7db95; font-size:130% ; position:absolute; bottom:30px ; width:80%; min-height:200px; padding-top:40px; padding-left:10px; box-shadow:0 2px 2px #3a3a3a; }
-#cover-text > h2, #cover-text > p{color:#252525 ; }
+main {
+    flex: 1 0 auto;
+    margin-top: 30px
+}
 
-#reasons{ padding:20px 10px; display:flex; flex-wrap:wrap; justify-content:space-around}
-#positive-benefits{ display:flex; flex-wrap:wrap;} 
-#positive-benefits div{color:#252525; background-color:#9995db; padding:15px; text-align:center; flex-basis:200px; flex-grow:1; border:2px solid #fafafa }
-#positive-benefits h3{color:#252525}
+#hero {
+    height: 400px;
+    width: 100%;
+    background: url('../images/hero.jpg') no-repeat center center/cover;
+    position: relative;
+}
 
-#call{text-align:center; }
-#why{text-align:center; }
-#stitches-btn, #patterns-btn{background-color:#9995db;text-align:center; color:#252525;}
+#cover-text {
+    background-color: #d7db95;
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+    box-shadow: 0 2px 2px #3a3a3a;
+}
 
-#click{display:flex; justify-content:center; padding:2em; gap:20px; }
+#cover-text>h2,
+#cover-text>p {
+    color: #252525;
+}
 
-footer{background-color:#d7db95; flex-basis: 0; align-items:center; position: fixed bottom; }
+#reasons {
+    padding: 20px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+
+#positive-benefits {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#positive-benefits div {
+    color: #252525;
+    background-color: #9995db;
+    padding: 15px;
+    text-align: center;
+    flex-basis: 200px;
+    flex-grow: 1;
+    border: 2px solid #fafafa
+}
+
+#positive-benefits h3 {
+    color: #252525
+}
+
+#call {
+    text-align: center;
+}
+
+#why {
+    text-align: center;
+}
+
+#stitches-btn,
+#patterns-btn {
+    background-color: #9995db;
+    text-align: center;
+    color: #252525;
+}
+
+#click {
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+    gap: 20px;
+}
+
+footer {
+    background-color: #d7db95;
+    flex-basis: 0;
+    align-items: center;
+    position: fixed bottom;
+}
 
 /*patterns page*/
 /*patterns page*/
-#pattern-title{
-    padding:20px 10px;
-    text-align:center;
-    background-color:#d7db95;
+#pattern-title {
+    padding: 20px 10px;
+    text-align: center;
+    background-color: #d7db95;
 }
 
-#patterns{
-    padding:20px 10px;
+#patterns {
+    padding: 20px 10px;
 }
 
-#pattern-boxes{
-    display:flex;
-    flex-wrap:wrap;
-    gap:20px;                 /* space between boxes, both directions */
-    justify-content:center;   /* centers the last row if it's not full */
+#pattern-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* space between boxes, both directions */
+    justify-content: center;
+    /* centers the last row if it's not full */
 }
 
-.pattern-box{
-    color:#252525;
-    text-align:center;
-    background-repeat:no-repeat;
-    background-size:contain;
-    background-position:center;
-    border:2px solid #fafafa;
+.pattern-box {
+    color: #252525;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border: 2px solid #fafafa;
 
-    width:calc(25% - 20px);   /* 4 per row, minus the gap */
-    box-sizing:border-box;
-    height:200px;              /* gives the background image room to show */
+    width: calc(25% - 20px);
+    /* 4 per row, minus the gap */
+    box-sizing: border-box;
+    height: 200px;
+    /* gives the background image room to show */
 }
 
-#pattern-boxes h3{
-    color:#252525; margin-bottom:20px
+#pattern-boxes h3 {
+    color: #252525;
+    margin-bottom: 20px
 }
 
-.pattern-box h3{
-    background-color:#d7db95;
-    padding:8px;
-    margin:0;
+.pattern-box h3 {
+    background-color: #d7db95;
+    padding: 8px;
+    margin: 0;
 }
 
 /*cable pattern*/
-#basic-cable{ background-image: url('../images/cable.jpg'); }
-/*embossed slip stitch pattern*/
-#embossed-slip-stitch{ background-image: url('../images/embossed-slip-stitch.jpg'); }
-/*double moss stitch pattern*/
-#double-moss-stitch{ background-image: url('../images/ph3.avif'); }
-/*basket stitch pattern*/
-#basket-stitch{ background-image: url('../images/ph4.jpg'); }
-/*cable and rib pattern*/
-#cable-and-rib{ background-image: url('../images/ph.png'); }
-/*platted cable stitch pattern*/
-#platted-cable-stitch{ background-image: url('../images/ph2.jpg'); }
-/*girls wing pattern*/
-#girls-wing-pattern{ background-image: url('../images/ph4.jpg'); }
-/*rib pattern*/
-#basic-rib{ background-image: url('../images/rib.jpg'); }
-
-@media (max-width: 700px) {
-    .pattern-box{
-        width: calc(50% - 20px); /* 2 per row on smaller screens */
-    }
+#basic-cable {
+    background-image: url('../images/cable.jpg');
 }
 
- /*patterns instruction pages*/
-#pattern-title{padding:20px 10px; text-align:center; background-color:#d7db95; }
+/*embossed slip stitch pattern*/
+#embossed-slip-stitch {
+    background-image: url('../images/embossed-slip-stitch.jpg');
+}
 
-#materials{  padding:25px; flex-basis:200px; flex-grow:1;  }
-#materials-list{list-style:none; }
+/*double moss stitch pattern*/
+#double-moss-stitch {
+    background-image: url('../images/ph3.avif');
+}
 
-#starter-rows{ padding:25px; flex-basis:200px; flex-grow:1;  }
-#starter-rows-list{list-style:none; }
+/*basket stitch pattern*/
+#basket-stitch {
+    background-image: url('../images/ph4.jpg');
+}
 
-#instructions{ background-color:#9995db; padding:25px; flex-basis:200px; flex-grow:1;  }
-#instructions-list{list-style:none; }
+/*cable and rib pattern*/
+#cable-and-rib {
+    background-image: url('../images/ph.png');
+}
 
-#finished{  padding:25px; flex-basis:200px; flex-grow:1;  }
-#finished p{padding:5px; }
+/*platted cable stitch pattern*/
+#platted-cable-stitch {
+    background-image: url('../images/ph2.jpg');
+}
 
-#next-pattern-btn{background-color:#9995db;}
+/*girls wing pattern*/
+#girls-wing-pattern {
+    background-image: url('../images/ph4.jpg');
+}
 
-#rib-image{background-image: url('../images/rib.jpg'); background-size: cover; background-position: center; height:400px; width:100%; }
-#cable-image{background-image: url('../images/cable.jpg'); background-size:cover; background-position: center; height: 400px; width:100%; }
-#embossed-slip-stitch-image{background-image: url('../images/embossed-slip-stitch.jpg'); background-size:cover; background-position: center; height: 400px; width:100%; }
+/*rib pattern*/
+#basic-rib {
+    background-image: url('../images/rib.jpg');
+}
 
-#pattern-section{display:flex; flex-direction:column; }
 
-#image-section{order:2;}
-#text-section{order:1; }
 
-#a {background-image: url('../images/rib.jpg'); background-size: cover; background-position: center; height:400px; width:100%; }
-#b {background-image: url('../images/cable.jpg'); background-size:cover; background-position: center; height: 400px; width:100%; }
-#c {background-image: url('../images/embossed-slip-stitch.jpg'); background-size:cover; background-position: center; height: 400px; width:100%; }
+/*patterns instruction pages*/
+#pattern-title {
+    padding: 20px 10px;
+    text-align: center;
+    background-color: #d7db95;
+}
+
+#materials {
+    padding: 25px;
+    flex-basis: 200px;
+    flex-grow: 1;
+}
+
+#materials-list {
+    list-style: none;
+}
+
+#starter-rows {
+    padding: 25px;
+    flex-basis: 200px;
+    flex-grow: 1;
+}
+
+#starter-rows-list {
+    list-style: none;
+}
+
+#instructions {
+    background-color: #9995db;
+    padding: 25px;
+    flex-basis: 200px;
+    flex-grow: 1;
+}
+
+#instructions-list {
+    list-style: none;
+}
+
+#finished {
+    padding: 25px;
+    flex-basis: 200px;
+    flex-grow: 1;
+}
+
+#finished p {
+    padding: 5px;
+}
+
+#next-pattern-btn {
+    background-color: #9995db;
+}
+
+#rib-image {
+    background-image: url('../images/rib.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+}
+
+#cable-image {
+    background-image: url('../images/cable.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+}
+
+#embossed-slip-stitch-image {
+    background-image: url('../images/embossed-slip-stitch.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+}
+
+#pattern-section {
+    display: flex;
+    flex-direction: column;
+}
+
+#image-section {
+    order: 2;
+}
+
+#text-section {
+    order: 1;
+}
+
+#a {
+    background-image: url('../images/rib.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+}
+
+#b {
+    background-image: url('../images/cable.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+}
+
+#c {
+    background-image: url('../images/embossed-slip-stitch.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+}
+
 /*
 Source - https://stackoverflow.com/q/65649642
 Posted by mpen, modified by community. See post 'Timeline' for change history
@@ -135,43 +374,147 @@ Retrieved 2026-08-19, License - CC BY-SA 4.0
 */
 
 .grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  grid-gap: 4px;  background-color: #d7db95;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 4px;
+    background-color: #d7db95;
+    padding: 10px;
 }
 
 .item {
-  overflow: hidden;
-  position: relative;
-  width: 100%;
-  padding-bottom: 100%;
-  height: 0;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%;
+    height: 0;
 }
 
-img {
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-  display: block;
-  /*height: 100%;*/
+/*img {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+}*/
+
+.item h3 {
+    background-color: #d7db95;
 }
 
-.item h3{background-color: #d7db95;}
+/*media query for smaller screens*/
+@media (max-width: 700px) {
+    .grid {display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
+   #a {
+    background-image: url('../images/rib.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 100%;
+}
+#b {
+    background-image: url('../images/cable.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 100%;
+}
+
+#c {
+    background-image: url('../images/embossed-slip-stitch.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 100%;
+}
+}
+
 /*media query for larger screens*/
 
 @media (min-width: 768px) {
-    #pattern-section{flex-direction:row; }
-     #image-section{flex-grow:2; height:800px; }
-      #finished{text-align:center; }
+    #pattern-section {
+        flex-direction: row;
+    }
 
-      /*pattern images*/
-     #rib-image{background-image: url('../images/rib.jpg') ; height:80%; width:100%; background-repeat:no-repeat; background-size:contain; background-position: center; }
-     #cable-image{background-image: url('../images/cable.jpg') ; height:80%; width:100%; background-repeat:no-repeat; background-size:contain; background-position: center; }
-     #basket-image{background-image: url('../images/basket.jpg') ; height:80%; width:100%; background-repeat:no-repeat; background-size:contain; background-position: center; }
-     #double-moss-image{background-image: url('../images/double-moss.jpg') ; height:80%; width:100%; background-repeat:no-repeat; background-size:contain; background-position: center; }
-     #girls-wing-image{background-image: url('../images/girls-wing.jpg') ; height:80%; width:100%; background-repeat:no-repeat; background-size:contain; background-position: center; }
-     #embossed-slip-stitch-image{background-image: url('../images/embossed-slip-stitch.jpg') ; height:80%; width:100%; background-repeat:no-repeat; background-size:contain; background-position: center; }
-     #platted-cable-stitch-image{background-image: url('../images/platted-cable-stitch.jpg') ; height:80%; width:100%; background-repeat:no-repeat; background-size:contain; background-position: center; }
-     #cable-and-rib-image{background-image: url('../images/cable-and-rib.jpg') ; height:80%; width:100%; background-repeat:no-repeat; background-size:contain; background-position: center; }
+    #image-section {
+        flex-grow: 2;
+        height: 800px;
+    }
+
+    #finished {
+        text-align: center;
+    }
+
+    /*pattern images*/
+    #rib-image {
+        background-image: url('../images/rib.jpg');
+        height: 80%;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+
+    #cable-image {
+        background-image: url('../images/cable.jpg');
+        height: 80%;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+
+    #basket-image {
+        background-image: url('../images/basket.jpg');
+        height: 80%;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+
+    #double-moss-image {
+        background-image: url('../images/double-moss.jpg');
+        height: 80%;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+
+    #girls-wing-image {
+        background-image: url('../images/girls-wing.jpg');
+        height: 80%;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+
+    #embossed-slip-stitch-image {
+        background-image: url('../images/embossed-slip-stitch.jpg');
+        height: 80%;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+
+    #platted-cable-stitch-image {
+        background-image: url('../images/platted-cable-stitch.jpg');
+        height: 80%;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+
+    #cable-and-rib-image {
+        background-image: url('../images/cable-and-rib.jpg');
+        height: 80%;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
 }
-    
