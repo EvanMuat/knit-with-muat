@@ -141,7 +141,7 @@ main {
     text-align: center;
 }
 
-#why {
+#why { padding-top: 20px;
     text-align: center;
 }
 
@@ -173,22 +173,6 @@ footer {
     padding: 20px 10px;
 }
 
-
-
-.pattern-box {
-    color: #252525;
-    text-align: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    border: 2px solid #fafafa;
-
-    width: calc(25% - 20px);
-    /* 4 per row, minus the gap */
-    box-sizing: border-box;
-    height: 200px;
-    /* gives the background image room to show */
-}
 
 #pattern-boxes h3 {
     color: #252525;
@@ -246,9 +230,6 @@ footer {
 /*patterns instruction pages*/
 
 
-
-
-
 #pattern-title {
     padding: 20px 10px;
     margin-top: 20px;
@@ -264,7 +245,7 @@ footer {
     list-style: none;
 }
 
-#starter-rows {
+#starter-rows {background-color: rgba(215,219,149,0.4);
     padding: 25px;
 }
 
@@ -273,7 +254,7 @@ footer {
 }
 
 #instructions {
-    background-color: rgba(153, 149, 219, 0.8);
+    background-color: rgba(153, 149, 219, 0.4);
     padding: 25px;
 }
 
@@ -290,46 +271,8 @@ footer {
     padding: 5px;
 }
 
+#back-link {padding:10px}
 
-
-
-
-#rib-image {
-    background-image: url('../images/rib.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 200px;
-    width: 100%;
-}
-
-#cable-image {
-    background-image: url('../images/cable.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 200px;
-    width: 100%;
-}
-
-#embossed-slip-stitch-image {
-    background-image: url('../images/embossed-slip-stitch.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 200px;
-    width: 100%;
-}
-
-#pattern-section {
-    display: flex;
-    flex-direction: column;
-}
-
-#image-section {
-    order: 2;
-}
-
-#text-section {
-    order: 1;
-}
 
 #a {
     background-image: url('../images/rib.jpg');
@@ -411,95 +354,5 @@ Retrieved 2026-08-19, License - CC BY-SA 4.0
         background-position: center;
         height: 200px;
         width: 100%;
-    }
-}
-
-/*media query for larger screens*/
-
-@media (min-width: 768px) {
-    #pattern-section {
-        flex-direction: row;
-    }
-
-    #image-section {
-        flex-grow: 2;
-        height: 800px;
-    }
-
-    #finished {
-        text-align: center;
-    }
-
-    /*pattern images*/
-    #rib-image {
-        background-image: url('../images/rib.jpg');
-        height: 80%;
-        width: 100%;
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center;
-    }
-
-    #cable-image {
-        background-image: url('../images/cable.jpg');
-        height: 80%;
-        width: 100%;
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center;
-    }
-
-    #basket-image {
-        background-image: url('../images/basket.jpg');
-        height: 80%;
-        width: 100%;
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center;
-    }
-
-    #double-moss-image {
-        background-image: url('../images/double-moss.jpg');
-        height: 80%;
-        width: 100%;
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center;
-    }
-
-    #girls-wing-image {
-        background-image: url('../images/girls-wing.jpg');
-        height: 80%;
-        width: 100%;
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center;
-    }
-
-    #embossed-slip-stitch-image {
-        background-image: url('../images/embossed-slip-stitch.jpg');
-        height: 80%;
-        width: 100%;
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center;
-    }
-
-    #platted-cable-stitch-image {
-        background-image: url('../images/platted-cable-stitch.jpg');
-        height: 80%;
-        width: 100%;
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center;
-    }
-
-    #cable-and-rib-image {
-        background-image: url('../images/cable-and-rib.jpg');
-        height: 80%;
-        width: 100%;
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center;
     }
 }
