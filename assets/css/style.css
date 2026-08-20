@@ -10,6 +10,7 @@ body {
     flex-direction: column;
     color: #3a3a3a;
     background-color: #fafafa;
+    
 }
 
 h1,
@@ -82,7 +83,7 @@ nav {
 
 
 main {
-    flex: 1 0 auto;
+    
     margin-top: 30px
 }
 
@@ -94,7 +95,7 @@ main {
 }
 
 #cover-text {
-    background-color: #d7db95;
+    background-color: rgba(215,219,149,0.8);
     font-size: 130%;
     position: absolute;
     bottom: 30px;
@@ -124,7 +125,7 @@ main {
 
 #positive-benefits div {
     color: #252525;
-    background-color: #9995db;
+    background-color: rgba(153, 149, 219, 0.8);
     padding: 15px;
     text-align: center;
     flex-basis: 200px;
@@ -144,12 +145,6 @@ main {
     text-align: center;
 }
 
-#stitches-btn,
-#patterns-btn {
-    background-color: #9995db;
-    text-align: center;
-    color: #252525;
-}
 
 #click {
     display: flex;
@@ -159,32 +154,26 @@ main {
 }
 
 footer {
-    background-color: #d7db95;
-    flex-basis: 0;
+    background-color: rgba(215,219,149,0.8);
+    
     align-items: center;
     position: fixed bottom;
 }
 
+
 /*patterns page*/
-/*patterns page*/
-#pattern-title {
+#pattern-page-title {
+    margin-top: 20px;
     padding: 20px 10px;
     text-align: center;
-    background-color: #d7db95;
+    /* background-color: #d7db95;*/
 }
 
 #patterns {
     padding: 20px 10px;
 }
 
-#pattern-boxes {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    /* space between boxes, both directions */
-    justify-content: center;
-    /* centers the last row if it's not full */
-}
+
 
 .pattern-box {
     color: #252525;
@@ -207,7 +196,7 @@ footer {
 }
 
 .pattern-box h3 {
-    background-color: #d7db95;
+    background-color: rgba(215,219,149,0.8);
     padding: 8px;
     margin: 0;
 }
@@ -255,16 +244,20 @@ footer {
 
 
 /*patterns instruction pages*/
+
+
+
+
+
 #pattern-title {
     padding: 20px 10px;
+    margin-top: 20px;
     text-align: center;
-    background-color: #d7db95;
+    background-color: rgba(215,219,149,0.8);
 }
 
 #materials {
     padding: 25px;
-    flex-basis: 200px;
-    flex-grow: 1;
 }
 
 #materials-list {
@@ -273,8 +266,6 @@ footer {
 
 #starter-rows {
     padding: 25px;
-    flex-basis: 200px;
-    flex-grow: 1;
 }
 
 #starter-rows-list {
@@ -282,10 +273,8 @@ footer {
 }
 
 #instructions {
-    background-color: #9995db;
+    background-color: rgba(153, 149, 219, 0.8);
     padding: 25px;
-    flex-basis: 200px;
-    flex-grow: 1;
 }
 
 #instructions-list {
@@ -294,23 +283,22 @@ footer {
 
 #finished {
     padding: 25px;
-    flex-basis: 200px;
-    flex-grow: 1;
+
 }
 
 #finished p {
     padding: 5px;
 }
 
-#next-pattern-btn {
-    background-color: #9995db;
-}
+
+
+
 
 #rib-image {
     background-image: url('../images/rib.jpg');
     background-size: cover;
     background-position: center;
-    height: 400px;
+    height: 200px;
     width: 100%;
 }
 
@@ -318,7 +306,7 @@ footer {
     background-image: url('../images/cable.jpg');
     background-size: cover;
     background-position: center;
-    height: 400px;
+    height: 200px;
     width: 100%;
 }
 
@@ -326,7 +314,7 @@ footer {
     background-image: url('../images/embossed-slip-stitch.jpg');
     background-size: cover;
     background-position: center;
-    height: 400px;
+    height: 200px;
     width: 100%;
 }
 
@@ -376,9 +364,9 @@ Retrieved 2026-08-19, License - CC BY-SA 4.0
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    grid-gap: 4px;
-    background-color: #d7db95;
-    padding: 10px;
+    /* grid-gap: 4px ; */
+
+    /*padding: 10px;*/
 }
 
 .item {
@@ -389,44 +377,41 @@ Retrieved 2026-08-19, License - CC BY-SA 4.0
     height: 0;
 }
 
-/*img {
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    display: block;
-}*/
 
 .item h3 {
-    background-color: #d7db95;
+    background-color: rgba(215,219,149,0.8);
 }
 
 /*media query for smaller screens*/
 @media (max-width: 700px) {
-    .grid {display: grid;
-    grid-template-columns: 1fr 1fr;
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
-   #a {
-    background-image: url('../images/rib.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 200px;
-    width: 100%;
-}
-#b {
-    background-image: url('../images/cable.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 200px;
-    width: 100%;
-}
 
-#c {
-    background-image: url('../images/embossed-slip-stitch.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 200px;
-    width: 100%;
-}
+    #a {
+        background-image: url('../images/rib.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 200px;
+        width: 100%;
+    }
+
+    #b {
+        background-image: url('../images/cable.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 200px;
+        width: 100%;
+    }
+
+    #c {
+        background-image: url('../images/embossed-slip-stitch.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 200px;
+        width: 100%;
+    }
 }
 
 /*media query for larger screens*/
