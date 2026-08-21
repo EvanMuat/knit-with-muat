@@ -196,6 +196,47 @@ footer {
     height: 400px;
     width: 100%;
 }
+/*basket stitch*/
+#d {
+    background-image: url('../images/basket-stitch.webp');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+}
+/*cable and rib stitch*/
+#e {
+    background-image: url('../images/cable-and-rib-stitch.webp');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+}
+/*double moss stitch*/
+#f {
+    background-image: url('../images/double-moss-stitch.webp');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+}
+/*girls wing pattern*/
+#g {
+    background-image: url('../images/girls-wing-pattern.webp');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+}
+/*platted cable stitch*/
+#h {
+    background-image: url('../images/platted-cable-stitch.webp');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+}
+
 
 /*
 Source - https://stackoverflow.com/q/65649642
@@ -305,4 +346,44 @@ Retrieved 2026-08-19, License - CC BY-SA 4.0
         height: 200px;
         width: 100%;
     }
+    /*basket stitch*/
+#d {
+    background-image: url('../images/basket-stitch.webp');
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 100%;
+}
+/*cable and rib stitch*/
+#e {
+    background-image: url('../images/cable-and-rib-stitch.webp');
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 100%;
+}
+/*double moss stitch*/
+#f {
+    background-image: url('../images/double-moss-stitch.webp');
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 100%;
+}
+/*girls wing pattern*/
+#g {
+    background-image: url('../images/girls-wing-pattern.webp');
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 100%;
+}
+/*platted cable stitch*/
+#h {
+    background-image: url('../images/platted-cable-stitch.webp');
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 100%;
+}
 }
